@@ -139,8 +139,13 @@ app.get("/secrets", (req, res)=>{
             console.log("Error: "+ err);
         }
         else{
-            if(foundUsers){
-                res.render("secrets", {userWithSecrets: foundUsers});
+            if(foundUsers){                
+                let isPublicRequest = true;
+
+                if(req.isAuthenticated()){
+                    isPublicRequest = false;
+                }
+                res.render("secrets", {userWithSecrets: foundUsers, public: isPublicRequest}); 
             }
         }
     });
