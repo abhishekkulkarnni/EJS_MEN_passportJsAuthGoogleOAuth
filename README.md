@@ -1,7 +1,3 @@
-# EJS_MEN_passportJsAuthentication
- Passport JS Demo.
-
-
 
 # _User Authentication WebApp By Using Passport.JS & Google OAuth_
 
