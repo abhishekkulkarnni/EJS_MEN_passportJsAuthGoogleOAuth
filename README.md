@@ -10,8 +10,8 @@ nodemon app.js
 ```
 
 ## _Functionality :_
-##### Use Passport.js hash & salt passwords for strong user authentication.
-##### Also used Google OAuth by using Passport.JS
+##### Use Passport.js to hash & salt passwords for strong user authentication.
+##### Used Google OAuth by using Passport.JS
 
 
 ## _WebApp Preview :_
